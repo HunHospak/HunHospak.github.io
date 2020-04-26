@@ -1,185 +1,266 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/syle.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
-        <title>Hospak</title>
-    </head>
-    
-    <body>
-        <header id="home">
-            <nav>
-                <div class="row">
-                    <img src="resources/img/signature.png" alt="H letter logo" class="logo">
-                    <ul class="main-nav js--main-nav">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#aboutme">About me</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <a class="mobile-nav-icon js--nav-icon"><ion-icon name="menu-outline"></ion-icon></a>
-                </div>
-            </nav>
-            <div class="hero-text-box">
-                <h1>Kiss Ádám, <br> Junior Web Developer</h1>
-                <a class="btn btn-full jss-scroll-to-contact" href="#">Hire me</a>
-                <a class="btn btn-ghost jss-scroll-to-aboutme" href="#">Show me more</a>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/syle.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hospak</title>
+  </head>
+
+  <body>
+    <header id="home">
+      <nav>
+        <div class="row">
+          <img
+            src="resources/img/signature.png"
+            alt="H letter logo"
+            class="logo"
+          />
+          <ul class="main-nav js--main-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a class="mobile-nav-icon js--nav-icon"
+            ><ion-icon name="menu-outline"></ion-icon
+          ></a>
+        </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>
+          Kiss Ádám, <br />
+          Junior Web Developer
+        </h1>
+        <a class="btn btn-full jss-scroll-to-contact" href="#">Hire me</a>
+        <a class="btn btn-ghost jss-scroll-to-aboutme" href="#">Show me more</a>
+      </div>
+    </header>
+
+    <section class="section-aboutme jss--section-aboutme" id="aboutme">
+      <div class="row">
+        <h2>About me</h2>
+      </div>
+      <div class="row">
+        <div class="col span_1_of_2 steps-box">
+          <img
+            src="resources/img/en.jpg"
+            alt="A picture of the author of this page"
+            class="profile-pic"
+          />
+        </div>
+        <div class="col span_1_of_2 steps-box">
+          <div class="works-step">
+            <div>Green Fox Academy</div>
+            <p>
+              An intensive bootcamp focusing on backend web development. In it's
+              three phases we learned the fundamentals of java development, then
+              went on learning the basics of Spring Framework. In it's last part
+              we had a group project where we created an application using
+              Spring and Angular and deployed it on AWS via CircleCI.
+            </p>
+          </div>
+          <div class="works-step">
+            <div>Széchenyi István University</div>
+            <p>
+              In the year 2019 I graduated as a Mechanical Engineer. It was a
+              great challenge where I learned a lot about analytical thinking.
+              We had extensive subjects in mathematics, physics and 3D design. A
+              lot of project work used designing and manufacturing applications.
+            </p>
+          </div>
+          <div class="works-step">
+            <div>Work Experience</div>
+            <p>
+              During 2018 I was hired as a Process Engineer. My main tasks
+              cosisted of creating daily statistics based on production records,
+              being in continuous contact with QA and supporting foreign
+              engineers with the installation of assembly lines.
+            </p>
+          </div>
+
+          <a
+            href="https://drive.google.com/uc?export=download&id=1x3BzHTkgX9EsMFT0ovDLZir3xbnnspYu"
+            class="btn btn-full"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section-features" id="projects">
+      <div class="row">
+        <h2>Most Recent &mdash; Projects:</h2>
+        <p class="long-copy">
+          A small description about each project and their main technology. At
+          the bottom of each column there is a link provided to the github repo.
+          If the project starts with GFA, then sadly only Green Fox Academy
+          partner can visit that project.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col span_1_of_4 box">
+          <div class="plan-box">
+            <div>
+              <i class="material-icons md-48 icon-big">account_circle</i>
             </div>
-        </header>
-        
-        <section class="section-aboutme jss--section-aboutme" id="aboutme">
-            <div class="row">
-                <h2>About me</h2>
+            <div class="middle-text">
+              <h3>Javascript practice site</h3>
+              <p>
+                The purpose of this project is to learn and practice the use of
+                javascript, and also implement working html and css with it. It
+                is a practice site using the material of 40+ hour course.
+              </p>
             </div>
-            <div class="row">
-                <div class="col span_1_of_2 steps-box">
-                    <img src="resources/img/en.jpg" alt="A picture of the author of this page" class="profile-pic">
-                </div>
-                <div class="col span_1_of_2 steps-box">
-                    <div class="works-step">
-                        <div>Green Fox Academy</div>
-                        <p>An intensive bootcamp focusing on backend web development. In it's three phases we learned the fundamentals of java development, then went on learning the basics of Spring Framework. In it's last part we had a group project where we created an application using Spring and Angular and deployed it on AWS via CircleCI.</p>
-                    </div>
-                    <div class="works-step">
-                        <div>Széchenyi István University</div>
-                        <p>In the year 2019 I graduated as a Mechanical Engineer. It was a great challenge where I learned a lot about analytical thinking. We had extensive subjects in mathematics, physics and 3D design. A lot of project work used designing and manufacturing applications.</p>
-                    </div>
-                    <div class="works-step">
-                        <div>Work Experience</div>
-                        <p>During 2018 I was hired as a Process Engineer. My main tasks cosisted of creating daily statistics based on production records, being in continuous contact with QA and supporting foreign engineers with the installation of assembly lines.</p>
-                    </div>
-                    
-                    <a href="https://drive.google.com/uc?export=download&id=1yOCid8IDgIu1CK6PZHNPrCYyJCif8ErK" class="btn btn-full">Download CV</a>
-                </div>
+            <div>
+              <a href="https://kissadamfrontend.github.io" class="btn btn-ghost"
+                >Visit</a
+              >
             </div>
-        </section>
-        
-        <section class="section-features" id="projects">
-            <div class="row">
-               <h2>Most Recent &mdash; Projects:</h2>
-                <p class="long-copy">
-                    A small description about each project and their main technology. At the bottom of each column there is a link provided to the github repo. If the project starts with GFA, then sadly only Green Fox Academy partner can visit that project.
-                </p>
+          </div>
+        </div>
+        <div class="col span_1_of_4 box">
+          <div class="plan-box">
+            <div>
+              <i class="material-icons md-48 icon-big">code</i>
             </div>
-            <div class="row">
-                <div class="col span_1_of_4 box">
-                    <div class="plan-box">
-                        <div>
-                            <i class="material-icons md-48 icon-big">account_circle</i>
-                        </div>
-                        <div class="middle-text">
-                            <h3>Portfolio Design</h3>
-                            <p>
-                                The purpose of this project is to have a nicely collected portfolio about my projects and studies, and also to practice my HTML and CSS skills. This page is intended to be frequently updated with new projects and technologies.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://github.com/HunHospak/webdesign" class="btn btn-ghost">Visit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col span_1_of_4 box">
-                    <div class="plan-box">
-                        <div>
-                            <i class="material-icons md-48 icon-big">code</i>
-                        </div>
-                        <div class="middle-text">
-                            <h3>Spring &mdash; OAuth2</h3>
-                            <p>
-                                Most ambitious project so far. It is a basic webshop application focused on wine selling. Bigger features should include OAuth&shy;orization with Google and Facebook, placing orders (no buying yet), and using various SQL formulas. This project will also have an Angular frontend.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://github.com/HunHospak/wineshop" class="btn btn-ghost">Visit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col span_1_of_4 box">
-                    <div class="plan-box">
-                        <div>
-                            <i class="material-icons md-48 icon-big">schedule</i>
-                        </div>
-                        <div class="middle-text">
-                            <h3>GFA &mdash; Hackathon</h3>
-                            <p>
-                                A 24h group project, made during Hackathon at Green Fox Academy. It should simulate the main processes of a brewery, from storing raw materials, to producing beer. These processes are done with SQL queries, Authorization through end&shy;points. The frontend was done with Angular.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://github.com/HunHospak/HackathonClone" class="btn btn-ghost">Visit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col span_1_of_4 box">
-                    <div class="plan-box">
-                        <div>
-                            <i class="material-icons md-48 icon-big">supervisor_account</i>
-                        </div>
-                        <div class="middle-text">
-                            <h3>GFA &mdash; Flow Opal</h3>
-                            <p>
-                                The main/learning task of Green Fox Academy project phase for my group. Features focused on JWT authorization, Google Maps API, Mockito Tests, SQL queries, Web Scraping, all written in Spring. Frontend also made in Angular.
-                            </p>
-                        </div>
-                        <div>
-                            <a href="https://github.com/HunHospak/KayakingAppClone" class="btn btn-ghost">Visit</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="middle-text">
+              <h3>Spring &mdash; OAuth2</h3>
+              <p>
+                Most ambitious project so far. It is a basic webshop application
+                focused on wine selling. Bigger features should include
+                OAuth&shy;orization with Google and Facebook, placing orders (no
+                buying yet), and using various SQL formulas. This project will
+                also have an Angular frontend.
+              </p>
             </div>
-        </section>
-        
-        <section class="section-contact js--section-contact" id="contact">
-            <div class="row">
-                <h2>Get in touch</h2>
-                <p class="long-copy contacttext">
-                    If you want to get in touch, talk to me about a project collaboration or job opportunities send me an email to <strong>hospak88@gmail.com</strong> and ~let's talk.
-                </p>
+            <div>
+              <a
+                href="https://github.com/HunHospak/wineshop"
+                class="btn btn-ghost"
+                >Visit</a
+              >
             </div>
-            <div class="row">
-                <h3>Currently looking for job Opportunities:</h3>
-                <p class="job-status">Active</p>
-                <h3>Let's get social</h3>
-                <p class="long-copy contacttext">Reach me on Linkedin, or follow my projects on Github.</p>
-                <a class="btn-social btn-linkedin" href="https://linkedin.com/in/hospak" ><ion-icon name="logo-linkedin"></ion-icon> Linkedin</a>
-                <a href="https://github.com/HunHospak" class="btn-social btn-github"><ion-icon name="logo-github"></ion-icon> Github</a>   
+          </div>
+        </div>
+        <div class="col span_1_of_4 box">
+          <div class="plan-box">
+            <div>
+              <i class="material-icons md-48 icon-big">schedule</i>
             </div>
-        </section>
-        
-        <footer>
-            <div class="row">
-                <div class="col span_1_of_2">
-                    <ul class="footer-nav">
-                        <li><a href="#">About me :)</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Press</a></li>
-                    </ul>
-                </div>
-                <div class="col span_1_of_2">
-                    <ul class="social-links">
-                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                    </ul>
-                </div>
-                <div class="row">
-                    <p>
-                        Copyright &copy; 2020 by Adam Kiss. All rights reserved.
-                    </p>
-                </div>
+            <div class="middle-text">
+              <h3>GFA &mdash; Hackathon</h3>
+              <p>
+                A 24h group project, made during Hackathon at Green Fox Academy.
+                It should simulate the main processes of a brewery, from storing
+                raw materials, to producing beer. These processes are done with
+                SQL queries, Authorization through end&shy;points. The frontend
+                was done with Angular.
+              </p>
             </div>
-        </footer>
-        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="vendors/js/jquery.waypoints.min.js"></script>
-        <script src="resources/js/scripts.js"></script>
-    </body>
-    
+            <div>
+              <a
+                href="https://github.com/HunHospak/HackathonClone"
+                class="btn btn-ghost"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col span_1_of_4 box">
+          <div class="plan-box">
+            <div>
+              <i class="material-icons md-48 icon-big">supervisor_account</i>
+            </div>
+            <div class="middle-text">
+              <h3>GFA &mdash; Flow Opal</h3>
+              <p>
+                The main/learning task of Green Fox Academy project phase for my
+                group. Features focused on JWT authorization, Google Maps API,
+                Mockito Tests, SQL queries, Web Scraping, all written in Spring.
+                Frontend also made in Angular.
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://github.com/HunHospak/KayakingAppClone"
+                class="btn btn-ghost"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact js--section-contact" id="contact">
+      <div class="row">
+        <h2>Get in touch</h2>
+        <p class="long-copy contacttext">
+          If you want to get in touch, talk to me about a project collaboration
+          or job opportunities send me an email to
+          <strong>hospak88@gmail.com</strong> and ~let's talk.
+        </p>
+      </div>
+      <div class="row">
+        <h3>Currently looking for job Opportunities:</h3>
+        <p class="job-status">Active</p>
+        <h3>Let's get social</h3>
+        <p class="long-copy contacttext">
+          Reach me on Linkedin, or follow my projects on Github.
+        </p>
+        <a class="btn-social btn-linkedin" href="https://linkedin.com/in/hospak"
+          ><ion-icon name="logo-linkedin"></ion-icon> Linkedin</a
+        >
+        <a href="https://github.com/HunHospak" class="btn-social btn-github"
+          ><ion-icon name="logo-github"></ion-icon> Github</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="col span_1_of_2">
+          <ul class="footer-nav">
+            <li><a href="#">About me :)</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="col span_1_of_2">
+          <ul class="social-links">
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <p>
+            Copyright &copy; 2020 by Adam Kiss. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
+  </body>
 </html>
